@@ -147,11 +147,13 @@ h3{
 
 .d-block{
   height: 40vh;
+  width: 70vh;
 }
 
 .logo{
-  width: 30%;
-  height: 15%;
+  width: 200px;
+  height: 150px;
   border-radius: 40%;
+  border-bottom: 2px;
 }
 
