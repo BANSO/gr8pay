@@ -192,3 +192,30 @@ h3{
 }
 
 
+.main-text{
+  animation: slideInFromleft 1s ease-in;
+}
+
+.main-img {
+  animation: slideInFromRight 1s ease-in;
+}
+
+/* Animation */
+
+@keyframes slideInFromleft {
+  0% {
+    transform: translateX(-100%)
+  }
+  100% {
+    transform: translateX(0%)
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%)
+  }
+  100% {
+    transform: translateX(0%)
+  }
+} 
