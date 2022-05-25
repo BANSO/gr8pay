@@ -78,10 +78,12 @@ h3{
 }
 /* navigation bar */
 .navbar{
-  padding: 0% 10% 2.5rem;
+  padding: 1.5% 10% .5rem;
   margin-top: 0%;
   display: flex;
   justify-content: space-between;
+  /* background-color: red; */
+  /* height: 150px; */
  
 }
 .navbar-brand{
@@ -92,12 +94,15 @@ h3{
 .nav-item{
   padding: 0 18px;
 }
+
 .nav-link{
   font-size: 1.2rem;
-  color: #138B70;;
+  color: #138B70;
 }
-.nav-link:hover{
- color: #138B70;;
+
+.navbar .nav-link:hover{
+  border-bottom: 2px solid #138B70;
+  color: #138B70;
 }
 
 .navbar-toggler{
@@ -195,6 +200,10 @@ h3{
 .main-text{
   animation: slideInFromleft 1s ease-in;
 }
+
+/* .title-text{
+  padding-top: 20%;
+} */
 
 .main-img {
   animation: slideInFromRight 1s ease-in;
