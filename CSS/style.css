@@ -82,8 +82,7 @@ h3{
   margin-top: 0%;
   display: flex;
   justify-content: space-between;
-  /* background-color: red; */
-  /* height: 150px; */
+ 
  
 }
 .navbar-brand{
@@ -100,8 +99,7 @@ h3{
   color: #138B70;
 }
 
-.navbar .nav-link:hover{
-  border-bottom: 2px solid #138B70;
+.nav-link:hover{
   color: #138B70;
 }
 
@@ -228,3 +226,30 @@ h3{
     transform: translateX(0%)
   }
 } 
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%)
+  }
+  100% {
+    transform: translateY(0%)
+  }
+} 
+
+
+/* .modal-dialog{
+  width: 900px;
+  height: 900px;
+  padding-top: 2%;
+} */
+
+.modal-content{
+  text-align: center;
+}
+
+.modal-img{
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  animation: slideInFromTop 1s ease-in;
+}
