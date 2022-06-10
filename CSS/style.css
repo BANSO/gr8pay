@@ -48,7 +48,7 @@ h3{
 
 
 .footer-icon{
-  padding: 1.5%;
+  padding: 4%;
   border: 1px solid white;
   border-radius: 50%;
   transition-duration: .5s;
@@ -57,15 +57,15 @@ h3{
   color: white;
 }
 
-.fa-twitter {
-  background-color: gray;
+/* .fa-twitter {
+  background-color: #00acee;
 }
 .fa-facebook {
-  background-color: gray;
+  background-color: #4267B2;
 }
 .fa-instagram {
-  background-color:  gray;
-}
+  background-color:  #3f729b;
+} */
 
 
 .footer-icon:hover{
